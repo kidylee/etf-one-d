@@ -1,1 +1,1 @@
-worker: ./etf-one-d
+worker: bin/etf-one-d
