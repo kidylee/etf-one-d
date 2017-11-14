@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	log "github.com/Sirupsen/logrus"
+)
 
 // this is a comment
 
 func main() {
-	fmt.Println("Hello World")
+	log.Info("Hello world!")
 }
